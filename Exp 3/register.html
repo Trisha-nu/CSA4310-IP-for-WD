@@ -23,7 +23,6 @@
   </form>
 
   <script>
-    // Get ?seat=...&date=... from URL and insert into hidden fields
     const params = new URLSearchParams(window.location.search);
     document.getElementById("seat").value = params.get("seat");
     document.getElementById("travel_date").value = params.get("date");
